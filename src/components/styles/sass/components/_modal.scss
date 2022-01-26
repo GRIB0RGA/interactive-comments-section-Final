@@ -1,0 +1,36 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 40rem;
+  background-color: $color-white;
+  padding: 5rem 4rem;
+  box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  z-index: 1000;
+  transition: all 0.5s;
+  &__header {
+    color: $color-primary--dark;
+    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+  }
+  &__text {
+    color: $color-gray-blue;
+    line-height: 1.5;
+  }
+  &__btn__container {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  &__btn {
+    &--cancel {
+      background-color: $color-gray-blue;
+    }
+    &--delete {
+      background-color: $color-red;
+    }
+  }
+}

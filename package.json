@@ -1,0 +1,14 @@
+{
+  "name": "comment-section",
+  "version": "1.0.0",
+  "description": "![Design preview for the Interactive comments section coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass src/components/styles/sass/main.scss src/components/styles/css/styles.css -w"
+  },
+  "author": "Griborga",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

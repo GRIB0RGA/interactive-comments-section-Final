@@ -1,0 +1,24 @@
+.userComment {
+  display: grid;
+  grid-template-columns: min-content 1fr min-content;
+  gap: 1rem;
+  margin-top: 2rem;
+
+  &__img {
+    align-self: flex-start;
+    width: 4.5rem;
+  }
+  &__text {
+    padding: 2rem 1rem 6rem;
+    border-radius: 0.8rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.295);
+    resize: none;
+
+    &::placeholder {
+      font-size: 1.6rem;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+}

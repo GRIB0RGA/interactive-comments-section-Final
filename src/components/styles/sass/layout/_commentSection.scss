@@ -1,0 +1,17 @@
+.mainContainer {
+  width: 40%;
+  margin: 10rem auto;
+}
+.commentSectionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.replayContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-left: 3rem;
+  margin-left: 2rem;
+  border-left: 2px solid $color-gray-blue-light;
+}
